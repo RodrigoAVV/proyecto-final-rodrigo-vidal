@@ -66,19 +66,26 @@ Inicio estilo para el menú
 	*/
 }
 .menu nav ul li  {
-	height:4rem;
-	width:12rem;
+	
+}
+.menu nav ul li  a{
+	border:2px solid;
+	border-color:red;
+	margin-right:0.12em;
+	padding: 1rem 1.5rem;
+	box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.25);
+	text-shadow: 1px 1px 0px #0C749C;
 
-	margin:1rem;
-	text-align: center;
-/*
+
+	
+
 	border:2px solid;
 	border-color:yellow;
-	*/
+	
     font-size: 1.8rem;
     background-color:#53d4ff;
-    box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.25);
-    text-shadow: 1px 1px 0px #0C749C;
+   
+   
     text-transform: uppercase;
 }
 .menu nav ul li {
@@ -114,7 +121,7 @@ div{
 	width:10rem;
 }
 */
-.menu nav ul  li:hover{
+.menu nav ul  li a:hover{
 	background-color:#def7ff;
 	
 }
@@ -408,7 +415,7 @@ Inicio estilo index 768px
 	}
 
 	.menu nav ul li  {
-		margin:0.5rem;
+		margin:1.3rem;
 	}
 	
 }
